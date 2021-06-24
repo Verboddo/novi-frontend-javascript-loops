@@ -21,7 +21,7 @@ for (let i = 0; i < 3; i++) {
  // ==========================================
 for (let i = 0; i < 6; i++) {
     if(i < 5) {
-        console.log("loop")
+        console.log("loop...")
     } else {
         console.log("klaar")
     }

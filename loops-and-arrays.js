@@ -12,6 +12,13 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // Na jouw script zie je de aangepaste waardes:
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
 
+//Make for loop to iterate through array
+for (let i = 0; i < names.length; i++) {
+    //Make variable for current name
+    const currentName = names[i]
+    //add je to currentname and log it
+    console.log(`${currentName}je`)
+}
 
 // ==========================================
 // Opdracht 2
@@ -27,6 +34,15 @@ const numbers = [2, 4, 5, 29, 38];
 // Na jouw script zie je de aangepaste waardes:
 // console.log(numbers) geeft: [ 6, 12, 15, 87, 114 ];
 
+//Make a for loop to iterate through array
+for (let i = 0; i < numbers.length; i++) {
+    //Make variable for currentnumber
+    const currentNumber = numbers[i]
+    //make variable for multiplied number
+    const multipliedNumbers = currentNumber * 3
+    //log multiplied number
+    console.log(multipliedNumbers)
+}
 
 // ==========================================
 // Opdracht 3
@@ -42,3 +58,14 @@ const squares = [30, 2, 8, 24, 11];
 // console.log(numbers) geeft: [30, 2, 8, 24, 11];
 // Na jouw script zie je de aangepaste waardes:
 // console.log(numbers) geeft: [27000, 8, 512, 13824, 1331];
+
+//Make for loop to iterate through array
+for (let i = 0; i < squares.length; i++) {
+    //Make variable for CurrentSquare
+    const currentSquare = squares[i]
+    //Make variable for volume
+    const volume = currentSquare * currentSquare * currentSquare
+    //log volume
+    console.log(volume)
+
+}
